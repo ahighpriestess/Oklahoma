@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Oklahoma City</title>
+</head>
+
+<body>
+    <header>
+        <div class="contact"><a href="contact.html" target="_blank" class="contact-link">Contact Us</a>
+        </div>
+        <h1>Contact Us</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="oklahomacity.html">Oklahoma City</a></li>
+                <li><a href="norman.html">Norman</a></li>
+                <li><a href="tulsa.html">Tulsa</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <p class="contact-txt">This is a form for questions and concerns.<br>
+            We are available daily from 8AM to 5PM (Central Time).</p>
+        <img src="images/oklahoma3.jpg" alt="Abstract art in Oklahoma" class="contact-img">
+
+        <!-- Credit in MLA Format -->
+        <p class="licensed-items img-source">"<a
+                href="https://pixabay.com/photos/abstract-sculpture-geometric-modern-1004494/">Hollyhock at Gilcrease
+                Museum</a>” by <a href="https://pixabay.com/users/deeashley-1050973/">Dionne Hartnett</a><br>
+            is licensed under <a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>.
+        </p>
+        <form>
+            <label for="first">First Name:</label>
+            <br>
+            <input type="text" id="first" name="first" placeholder="e.g. Jane" required>
+            <br>
+            <label for="last">Last Name:</label>
+            <br>
+            <input type="text" id="last" name="last" placeholder="e.g. Doe" required>
+            <br>
+            <label for="email">Email Address:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="e.g. example@domain.com" required>
+            <br>
+            <label for="email2">Confirm Email:</label>
+            <br>
+            <input type="email" id="email2" name="email2" placeholder="e.g. example@domain.com" required>
+            <br>
+            <label for="question">Question:</label>
+            <br>
+            <br>
+            <textarea id="questions" name="questions" placeholder="e.g. What time does the agency open?" rows="4"
+                cols="20"></textarea>
+            <br>
+
+            <!-- After pressing submit, it will alert the user "We will reach out to you shortly" IF the user's
+                 email matches. 
+                 Otherwise, it will alert the user, "Email addresses are not the same. Please try again.". -->
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </section>
+    <br>
+
+    <footer>
+        <p>Copyright @ Oklahoma State Gov 2024.</a></p>
+    </footer>
+</body>
+
+</html>

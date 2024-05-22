@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+header {
+    clear: both;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    font-size: 86%;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    font-size: 50px;
+}
+
+nav {
+    opacity: 0.8;
+}
+
+.main-photo {
+    width: 500px;
+    height: auto;
+    padding: 50px 50px 0 50px;
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+li a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* Relative positioning with offset properties. */
+table {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+a:hover {
+    color: plum;
+}
+
+
+th,
+td {
+    width: 200px;
+    padding: 15px;
+}
+
+
+section {
+    width: 50%;
+    margin: 20px;
+    float: left;
+    padding: 50px;
+}
+
+aside {
+    margin: auto;
+    padding: 100px;
+    text-align: left;
+    opacity: 0.8;
+}
+
+
+/* Relative positioning with offset properties. */
+.aside-indent {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+aside h2 {
+    color: black;
+
+}
+
+
+
+footer {
+    clear: both;
+}
+
+#okc {
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(21, 21, 45, 1) 35%, rgba(36, 27, 47, 1) 100%);
+}
+
+#tulsa {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(19, 21, 57, 1) 35%, rgba(0, 0, 0, 1) 100%);
+}
+
+#norman {
+    background: rgb(84, 58, 180);
+    background: linear-gradient(90deg, rgba(84, 58, 180, 1) 0%, rgba(33, 12, 12, 1) 50%, rgba(15, 62, 90, 1) 100%);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+
+input {
+    margin: 20px auto;
+}
+
+.aside-img {
+    width: 300px;
+    opacity: 0.9;
+    filter: grayscale(50%);
+}
+
+/* Absolute positioning with offset properties. */
+.contact {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+
+}
+
+.contact-link {
+    color: #FFFFFF;
+}
+
+.licensed-items {
+    font-size: 7px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+
+aside .licensed-items {
+    font-size: 7px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+/* Absolute positioning with offset properties. */
+.avg {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: blueviolet;
+    position: absolute;
+    top: 120px;
+    left: 520px;
+    opacity: 0.8;
+
+}
+
+
+
+section p {
+    text-align: left;
+    padding: 20px;
+}
+
+.contact-txt {
+    color: purple;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 4px;
+}
+
+.contact-section {
+    float: none;
+    width: 80%;
+}
+
+.contact-img {
+    width: 300px;
+    filter: grayscale(50%);
+}
+
+.img-source {
+    color: black;
+    text-align: center;
+    opacity: 1;
+}
